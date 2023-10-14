@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Gabarito&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+.navbar {
+    font-family: 'Gabarito', sans-serif;
+    font-weight: bold;
+    background-color: #0B0C10;
+}
+
+#name {
+    font-size: 45px;
+    font-weight: bold;
+}
+
+#Home {
+    font-size: 25px;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+    background-image: image-set(url('./introbg.jpg'));
+    padding-top: 40vh;
+    padding-bottom: 55vh;
+    background-size: cover;
+}
+
+#About {
+    overflow: hidden;
+    font-family: 'Gabarito', sans-serif;
+    padding-top: 20vh;
+    padding-bottom: 20vh;
+    background-image: image-set(url('./aboutbg.jpg'));
+    background-size: cover;
+}
+
+#About h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+
+.card{
+    background-color: rgb(15, 15, 39);
+    color: tomato;
+}
+
+.card-title {
+    font-size: 25px;
+}
+
+.list-group-item {
+    background-color: rgb(15, 15, 39);
+    color: tomato;
+    font-size: 19px;
+}
+
+.card-body {
+    color: tomato;
+    font-size: 19px;
+}
+
+.highlight {
+    color: rgb(241, 180, 87);
+}
+
+#Contacts {
+    background-color: #0B0C10;
+}
+
+#Contacts h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+
+#Contacts a {
+    font-size: 28px;
+}
